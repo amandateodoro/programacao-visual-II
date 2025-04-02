@@ -1,0 +1,54 @@
+﻿@page "/imc"
+
+<div class="container">
+    <h3><center>Calculadora De Imc</center></h3>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">NOME:</label>
+        <input @bind="Nome" type="text" class="form-control" id="exampleFormControlInput1">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">PESO:</label>
+        <input @bind="Peso" type="number" class="form-control" id="exampleFormControlInput1">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">ALTURA :</label>
+        <input @bind="Altura" type="number" class="form-control" id="exampleFormControlInput1">
+    </div>
+
+    <button type="button" class="btn btn-primary" @onclick="Calcular">CALCULAR</button>
+    <button type="button" class="btn btn-warning">CANCELAR</button>
+    <button type="button" class="btn btn-success">SALVAR</button>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">RESULTADO:</label>
+        <input @bind="Imc" type="number" class="form-control" id="exampleFormControlInput1">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">CLASSIFICAÇÃO: </label>
+    </div>
+</div>
+
+@code {
+    private string? Nome { get; set; }
+    private double? Peso { get; set; }
+    private double? Altura { get; set; }
+    private string? Classificacao { get; set; }
+    private double? Imc { get; set; }
+
+    public void Calcular()
+    {
+        Imc = Peso / (Altura * Altura);
+
+        if (Imc < 18.5) Classificacao = Nome + ", o seu IMC de " + Imc + " é considerado abaixo do peso normal";
+        if (Imc >= 18.5 || Imc <= 24.9) Classificacao = Nome + ", o seu IMC de " + Imc + " é considerado peso normal";
+        if (Imc >= 25) Classificacao = Nome + ", o seu IMC de " + Imc + " é considerado acima do peso normal";
+    }
+}

@@ -1,0 +1,45 @@
+﻿@page "/divisao"
+
+<h3>SomaDeValores</h3>
+<div class="container">
+    <!-- Content here -->
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">VALOR 1:</label>
+        <input @bind="valor1" type="number" class="form-control" id="exampleFormControlInput1">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">VALOR 2:</label>
+        <input @bind="valor2" type="number" class="form-control" id="exampleFormControlInput2">
+    </div>
+
+    <button type="button" class="btn btn-success" @onclick="Calcular">CALCULAR</button>
+    <button type="button" class="btn btn-primary" @onclick="NovoCalculo">NOVO CÁLCULO</button>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">RESULTADO:</label>
+        <input @bind="resultado" type="number" class="form-control" id="exampleFormControlInput1">
+    </div>
+</div>
+
+@code {
+    double? valor1 = 0;
+    double? valor2 = 0;
+    double? resultado = 0;
+
+    public void Calcular()
+    {
+        resultado = valor1 / valor2;
+    }
+
+    private void NovoCalculo()
+    {
+        valor1 = null;
+        valor2 = null;
+        resultado = null;
+    }
+
+}
