@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\AppProjetoAluno\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6265F91C-901D-4417-87BE-80CA354AF69B}|AppProjetoAluno\\AppProjetoAluno.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-02\\appprojetoaluno\\appprojetoaluno\\components\\pages\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6265F91C-901D-4417-87BE-80CA354AF69B}|AppProjetoAluno\\AppProjetoAluno.csproj|solutionrelative:appprojetoaluno\\components\\pages\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6265F91C-901D-4417-87BE-80CA354AF69B}|AppProjetoAluno\\AppProjetoAluno.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-02\\appprojetoaluno\\appprojetoaluno\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6265F91C-901D-4417-87BE-80CA354AF69B}|AppProjetoAluno\\AppProjetoAluno.csproj|solutionrelative:appprojetoaluno\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6265F91C-901D-4417-87BE-80CA354AF69B}|AppProjetoAluno\\AppProjetoAluno.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-02\\appprojetoaluno\\appprojetoaluno\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6265F91C-901D-4417-87BE-80CA354AF69B}|AppProjetoAluno\\AppProjetoAluno.csproj|solutionrelative:appprojetoaluno\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\AppProjetoAluno\\AppProjetoAluno\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "AppProjetoAluno\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\AppProjetoAluno\\AppProjetoAluno\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "AppProjetoAluno\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T01:54:20.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cadastro.razor",
+              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\AppProjetoAluno\\AppProjetoAluno\\Components\\Pages\\Cadastro.razor",
+              "RelativeDocumentMoniker": "AppProjetoAluno\\Components\\Pages\\Cadastro.razor",
+              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\AppProjetoAluno\\AppProjetoAluno\\Components\\Pages\\Cadastro.razor",
+              "RelativeToolTip": "AppProjetoAluno\\Components\\Pages\\Cadastro.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T01:41:01.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\AppProjetoAluno\\AppProjetoAluno\\Models\\Aluno.cs",
+              "RelativeDocumentMoniker": "AppProjetoAluno\\Models\\Aluno.cs",
+              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\AppProjetoAluno\\AppProjetoAluno\\Models\\Aluno.cs",
+              "RelativeToolTip": "AppProjetoAluno\\Models\\Aluno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T01:36:23.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

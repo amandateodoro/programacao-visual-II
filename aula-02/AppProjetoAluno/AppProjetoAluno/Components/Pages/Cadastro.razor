@@ -1,0 +1,101 @@
+﻿@page "/cadastro"
+@using AppProjetoAluno.Models
+
+<div class="container">
+    <h3><center>SIMULADOR DE NOTAS</center></h3>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">NOME:</label>
+        <input @bind = "nome" type="text" class="form-control" id="exampleFormControlInput1">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">NOTA 1:</label>
+        <input @bind = "nota1" type="number" class="form-control" id="exampleFormControlInput1">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">NOTA 2 :</label>
+        <input @bind = "nota2" type="number" class="form-control" id="exampleFormControlInput1">
+    </div>
+
+    <button type="button" class="btn btn-primary" @onclick=Calcular>CALCULAR</button>
+    <button type="button" class="btn btn-warning" @onclick=Cancelar>CANCELAR</button>
+    <button type="button" class="btn btn-success" @onclick=Salvar>SALVAR</button>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">NOME</th>
+                <th scope="col">NOTA 1</th>
+                <th scope="col">NOTA 2</th>
+                <th scope="col">MÉDIA</th>
+                <th scope="col">SITUAÇÃO</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Alunos)
+            {
+                <tr>
+                    <th>@item.Id</th>
+                    <th>@item.Nome</th>
+                    <th>@item.Nota1</th>
+                    <th>@item.Nota2</th>
+                    <th>@item.Media</th>
+                    <th>@item.Situacao</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private int id = 0;
+    private string? nome = "";
+    private double nota1 = 0;
+    private double nota2 = 0;
+    private double media = 0;
+    private string? situacao = "";
+
+    private List<Aluno> Alunos = new List<Aluno>();
+
+    public void Calcular ()
+    {
+        media = (nota1 + nota2) / 2;
+    }
+
+    public void Salvar()
+    {
+        id++;
+        Aluno aluno = new Aluno();
+        aluno.Id = id;
+        aluno.Nome = nome;
+        aluno.Nota1 = nota1;
+        aluno.Nota2 = nota2;
+        aluno.CalcularMedia();
+        media = aluno.Media;
+        situacao = aluno.Situacao;
+
+        Alunos.Add(aluno); //coloca o aluno na lista
+
+        nome = "";
+        nota1 = 0;
+        nota2 = 0;
+        media = 0;
+        situacao = "";
+    }
+
+    public void Cancelar()
+    {
+        nome = "";
+        nota1 = 0;
+        nota2 = 0;
+        media = 0;
+        situacao = "";
+    }
+}

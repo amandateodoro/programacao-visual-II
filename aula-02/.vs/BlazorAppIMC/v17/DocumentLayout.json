@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F5E48-BFCC-440F-97A8-F860C38FBAC8}|BlazorAppIMC\\BlazorAppIMC.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-02\\blazorappimc\\components\\pages\\registroimc.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96F5E48-BFCC-440F-97A8-F860C38FBAC8}|BlazorAppIMC\\BlazorAppIMC.csproj|solutionrelative:blazorappimc\\components\\pages\\registroimc.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F5E48-BFCC-440F-97A8-F860C38FBAC8}|BlazorAppIMC\\BlazorAppIMC.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-02\\blazorappimc\\models\\calculadoraimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96F5E48-BFCC-440F-97A8-F860C38FBAC8}|BlazorAppIMC\\BlazorAppIMC.csproj|solutionrelative:blazorappimc\\models\\calculadoraimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96F5E48-BFCC-440F-97A8-F860C38FBAC8}|BlazorAppIMC\\BlazorAppIMC.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-02\\blazorappimc\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C96F5E48-BFCC-440F-97A8-F860C38FBAC8}|BlazorAppIMC\\BlazorAppIMC.csproj|solutionrelative:blazorappimc\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistroIMC.razor",
+              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\BlazorAppIMC\\Components\\Pages\\RegistroIMC.razor",
+              "RelativeDocumentMoniker": "BlazorAppIMC\\Components\\Pages\\RegistroIMC.razor",
+              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\BlazorAppIMC\\Components\\Pages\\RegistroIMC.razor",
+              "RelativeToolTip": "BlazorAppIMC\\Components\\Pages\\RegistroIMC.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T00:45:58.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\BlazorAppIMC\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorAppIMC\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\BlazorAppIMC\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorAppIMC\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T00:44:55.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculadoraIMC.cs",
+              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\BlazorAppIMC\\Models\\CalculadoraIMC.cs",
+              "RelativeDocumentMoniker": "BlazorAppIMC\\Models\\CalculadoraIMC.cs",
+              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-02\\BlazorAppIMC\\Models\\CalculadoraIMC.cs",
+              "RelativeToolTip": "BlazorAppIMC\\Models\\CalculadoraIMC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T00:43:03.048Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
