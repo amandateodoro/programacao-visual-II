@@ -1,0 +1,6 @@
+C:\Users\2022202060042\source\repos\programacao-visual-II\aula-03\AppPessoa\obj\Debug\net8.0\AppPessoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2022202060042\source\repos\programacao-visual-II\aula-03\AppPessoa\obj\Debug\net8.0\AppPessoa.AssemblyInfoInputs.cache
+C:\Users\2022202060042\source\repos\programacao-visual-II\aula-03\AppPessoa\obj\Debug\net8.0\AppPessoa.AssemblyInfo.cs
+C:\Users\2022202060042\source\repos\programacao-visual-II\aula-03\AppPessoa\obj\Debug\net8.0\AppPessoa.csproj.CoreCompileInputs.cache
+C:\Users\2022202060042\source\repos\programacao-visual-II\aula-03\AppPessoa\obj\Debug\net8.0\AppPessoa.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\2022202060042\source\repos\programacao-visual-II\aula-03\AppPessoa\obj\Debug\net8.0\AppPessoa.sourcelink.json
