@@ -1,37 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\",
+  "WorkspaceRootPath": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-03\\apppessoa\\components\\pages\\filtros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\aula-03-04\\apppessoa\\components\\pages\\filtros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|solutionrelative:components\\pages\\filtros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-03\\apppessoa\\components\\pages\\consulta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\aula-03-04\\apppessoa\\components\\pages\\consulta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|solutionrelative:components\\pages\\consulta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-03\\apppessoa\\components\\pages\\listar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\aula-03-04\\apppessoa\\components\\pages\\listar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|solutionrelative:components\\pages\\listar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-03\\apppessoa\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|solutionrelative:models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-03\\apppessoa\\service\\pessoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|solutionrelative:service\\pessoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-03\\apppessoa\\components\\pages\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\aula-03-04\\apppessoa\\components\\pages\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|solutionrelative:components\\pages\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-03\\apppessoa\\contexto\\contextbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|solutionrelative:contexto\\contextbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-03\\apppessoa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\aula-03-04\\apppessoa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B364FA94-1654-4776-B46D-0191A0D7A52C}|AppPessoa.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -48,104 +36,65 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Filtros.razor",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Components\\Pages\\Filtros.razor",
+              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\Components\\Pages\\Filtros.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Filtros.razor",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Components\\Pages\\Filtros.razor",
+              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\Components\\Pages\\Filtros.razor",
               "RelativeToolTip": "Components\\Pages\\Filtros.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T01:17:36.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Consulta.razor",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Components\\Pages\\Consulta.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Consulta.razor",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Components\\Pages\\Consulta.razor",
-              "RelativeToolTip": "Components\\Pages\\Consulta.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T00:35:03.733Z",
+              "WhenOpened": "2025-04-16T01:04:42.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Listar.razor",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Components\\Pages\\Listar.razor",
+              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\Components\\Pages\\Listar.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Listar.razor",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Components\\Pages\\Listar.razor",
+              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\Components\\Pages\\Listar.razor",
               "RelativeToolTip": "Components\\Pages\\Listar.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T00:08:30.134Z",
+              "WhenOpened": "2025-04-16T00:59:57.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cadastro.razor",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Components\\Pages\\Cadastro.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Cadastro.razor",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Components\\Pages\\Cadastro.razor",
-              "RelativeToolTip": "Components\\Pages\\Cadastro.razor",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCAAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Consulta.razor",
+              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\Components\\Pages\\Consulta.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Consulta.razor",
+              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\Components\\Pages\\Consulta.razor",
+              "RelativeToolTip": "Components\\Pages\\Consulta.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T23:53:04.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T23:46:51.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PessoaService.cs",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Service\\PessoaService.cs",
-              "RelativeDocumentMoniker": "Service\\PessoaService.cs",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Service\\PessoaService.cs",
-              "RelativeToolTip": "Service\\PessoaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T23:42:20.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ContextBD.cs",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Contexto\\ContextBD.cs",
-              "RelativeDocumentMoniker": "Contexto\\ContextBD.cs",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Contexto\\ContextBD.cs",
-              "RelativeToolTip": "Contexto\\ContextBD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T23:30:32.922Z",
+              "WhenOpened": "2025-04-16T00:59:14.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Pessoa.cs",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Models\\Pessoa.cs",
-              "RelativeDocumentMoniker": "Models\\Pessoa.cs",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-03\\AppPessoa\\Models\\Pessoa.cs",
-              "RelativeToolTip": "Models\\Pessoa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Title": "Cadastro.razor",
+              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\Components\\Pages\\Cadastro.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Cadastro.razor",
+              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\Components\\Pages\\Cadastro.razor",
+              "RelativeToolTip": "Components\\Pages\\Cadastro.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T00:56:29.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T23:30:05.107Z",
+              "WhenOpened": "2025-04-08T23:46:51.801Z",
               "EditorCaption": ""
             }
           ]

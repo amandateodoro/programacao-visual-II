@@ -1,8 +1,8 @@
 ﻿@page "/filtros"
 @rendermode InteractiveServer
 @using AppPessoa.Models
-@using AppPessoa.Service
-@inject PessoaService pessoaService
+@using AppPessoa.Services
+@inject PessoaServices pessoaService
 @inject NavigationManager navegacao
 
 <h3>Filtros</h3>
@@ -105,7 +105,7 @@
         pessoasFiltro = pessoas.Where(p => p.Cpf == cpf).ToList();
     }
 
-     public void FiltroDataList(ChangeEventArgs e)
+    public void FiltroDataList(ChangeEventArgs e)
     {
         pessoasFiltro.Clear();
         string cpf = e.Value.ToString();

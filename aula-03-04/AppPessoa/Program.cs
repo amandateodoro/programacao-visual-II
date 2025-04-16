@@ -1,6 +1,6 @@
 using AppPessoa.Components;
 using AppPessoa.Contexto;
-using AppPessoa.Service;
+using AppPessoa.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddScoped<PessoaService>();
+builder.Services.AddScoped<PessoaServices>();
 builder.Services.AddSingleton<ContextBD>();
 
 var app = builder.Build();

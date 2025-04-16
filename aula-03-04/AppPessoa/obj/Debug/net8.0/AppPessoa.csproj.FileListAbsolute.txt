@@ -4,3 +4,9 @@ C:\Users\2022202060042\source\repos\programacao-visual-II\aula-03\AppPessoa\obj\
 C:\Users\2022202060042\source\repos\programacao-visual-II\aula-03\AppPessoa\obj\Debug\net8.0\AppPessoa.csproj.CoreCompileInputs.cache
 C:\Users\2022202060042\source\repos\programacao-visual-II\aula-03\AppPessoa\obj\Debug\net8.0\AppPessoa.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\2022202060042\source\repos\programacao-visual-II\aula-03\AppPessoa\obj\Debug\net8.0\AppPessoa.sourcelink.json
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\aula-03-04\AppPessoa\obj\Debug\net8.0\AppPessoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\aula-03-04\AppPessoa\obj\Debug\net8.0\AppPessoa.AssemblyInfoInputs.cache
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\aula-03-04\AppPessoa\obj\Debug\net8.0\AppPessoa.AssemblyInfo.cs
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\aula-03-04\AppPessoa\obj\Debug\net8.0\AppPessoa.csproj.CoreCompileInputs.cache
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\aula-03-04\AppPessoa\obj\Debug\net8.0\AppPessoa.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\aula-03-04\AppPessoa\obj\Debug\net8.0\AppPessoa.sourcelink.json
