@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Filtros.razor",
               "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-03-04\\AppPessoa\\Components\\Pages\\Filtros.razor",
               "RelativeToolTip": "Components\\Pages\\Filtros.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-16T01:04:42.445Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Components\\Pages\\Listar.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T00:59:57.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T00:59:57.864Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Components\\Pages\\Consulta.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T00:59:14.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T00:59:14.892Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Components\\Pages\\Cadastro.razor",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T00:56:29.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T00:56:29.424Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T23:46:51.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T23:46:51.801Z"
             }
           ]
         }

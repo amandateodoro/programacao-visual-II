@@ -1,0 +1,44 @@
+﻿@page "/primeiroCadastro"
+@using AppInventario.Models;
+@using AppInventario.Services;
+@inject PessoaService pessoaService;
+@inject NavigationManager navegacao;
+
+<h3>PRIMEIRO REGISTRO DE PESSOA COM PROPRIEDADES</h3>
+
+
+
+@code {
+    private string? Descricao { get; set; }
+    private double? Valor { get; set; }
+    private bool novo = false;
+    private bool campoBloqueado = false;
+    private Pessoa? pessoa = new Pessoa();
+    private List<Propriedade> bensRegistrados = new List<Propriedade>();
+
+    private void AddBens()
+    {
+        Propriedade bem = new Propriedade();
+        bem.Descricao = Descricao;
+        bem.valor = Valor;
+        bensRegistrados.Add(bem);
+        Descricao = null; Valor = null;
+    }
+
+    public async Task Salvar()
+    {
+        pessoa.DataNasc = pessoa.DataNasc.Value.ToUniversalTime();
+        pessoa.Propriedades = bensRegistrados;
+        await pessoaService.Add(pessoa);
+        await pessoaService.Salvar();
+        novo = true;
+        campoBloqueado = true;
+    }
+
+    public void NovoRegistro()
+    {
+        novo = false;
+        navegacao.NavigateTo("/primeiroCadastro", forceLoad: true);
+    }
+
+}

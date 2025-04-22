@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-05\\AppInventario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\aula-05\\appinventario\\components\\pages\\primeirocadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|solutionrelative:components\\pages\\primeirocadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrimeiroCadastro.razor",
+              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-05\\AppInventario\\Components\\Pages\\PrimeiroCadastro.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\PrimeiroCadastro.razor",
+              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\aula-05\\AppInventario\\Components\\Pages\\PrimeiroCadastro.razor",
+              "RelativeToolTip": "Components\\Pages\\PrimeiroCadastro.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T22:02:58.466Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
