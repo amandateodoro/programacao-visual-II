@@ -1,4 +1,5 @@
 ﻿@page "/primeiroCadastro"
+@rendermode InteractiveServer
 @using AppInventario.Models;
 @using AppInventario.Services;
 @inject PessoaService pessoaService;
@@ -6,7 +7,101 @@
 
 <h3>PRIMEIRO REGISTRO DE PESSOA COM PROPRIEDADES</h3>
 
+<div class="container">
 
+	<div class="mb-3">
+		<label for="formControlInput1" class="form-label">NOME:</label>
+		<input @bind="pessoa.Nome" type="text" class="form-control" id="formControlInput1" disabled="@campoBloqueado" />
+	</div>
+
+	<div class="row align-items-start">
+		<div class="col">
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">CPF:</label>
+				<input @bind="pessoa.Cpf" type="text" class="form-control" id="exampleFormControlInput2" disabled="@campoBloqueado">
+			</div>
+		</div>
+		<div class="col">
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">DATA DE NASCIMENTO:</label>
+				<input @bind="pessoa.DataNasc" type="date" class="form-control" id="exampleFormControlInput2" disabled="@campoBloqueado">
+			</div>
+		</div>
+		<div class="col">
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">TELEFONE:</label>
+				<input @bind="pessoa.Telefone" type="tel" class="form-control" id="exampleFormControlInput2" disabled="@campoBloqueado">
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-light" style="background-color: white"></nav>
+	@if (novo == false)
+	{
+		<button type="button" class="btn btn-success" @onclick="Salvar">SALVAR</button>
+		<button type="button" class="btn btn-primary" @onclick="NovoRegistro">CANCELAR</button>
+	}
+
+
+	<nav class="navbar navbar-light" style="background-color: white"></nav>
+
+	<nav class="navbar navbar-light" style="background-color: darkorange"></nav>
+
+	<nav class="navbar navbar-light" style="background-color: white"></nav>
+
+	<div class="row align-items-start">
+		<div class="col">
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">DESCRIÇÃO:</label>
+				<input @bind="Descricao" type="text" class="form-control" id="exampleFormControlInput1" disabled="@campoBloqueado">
+			</div>
+
+		</div>
+		<div class="col">
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">VALOR:</label>
+				<input @bind="Valor" type="number" class="form-control" id="exampleFormControlInput1" disabled="@campoBloqueado">
+			</div>
+		</div>
+		@if (novo == false)
+		{
+			<button type="button" class="btn btn-warning" @onclick="AddBens">ADICIONAR</button>
+		}
+	</div>
+	<nav class="navbar navbar-light" style="background-color: white"></nav>
+	<nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+	<h4 style="text-align:center">Bens Cadastrados</h4>
+	<div class="row align-items-start">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Descrição</th>
+					<th>Valor</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in bensRegistrados)
+				{
+					<tr>
+						<td>@item.Descricao</td>
+						<td>@item.Valor</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+
+	<nav class="navbar navbar-light" style="background-color: white"></nav>
+
+	@if (novo)
+	{
+		<div class="alert alert-success" role="alert">
+			Salvo com Sucesso!
+		</div>
+		<button type="button" class="btn btn-primary" @onclick="NovoRegistro">NOVO REGISTRO</button>
+	}
+
+</div>
 
 @code {
     private string? Descricao { get; set; }
@@ -20,7 +115,7 @@
     {
         Propriedade bem = new Propriedade();
         bem.Descricao = Descricao;
-        bem.valor = Valor;
+        bem.Valor = Valor;
         bensRegistrados.Add(bem);
         Descricao = null; Valor = null;
     }

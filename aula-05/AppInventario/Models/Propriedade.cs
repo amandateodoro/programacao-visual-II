@@ -13,7 +13,7 @@ namespace AppInventario.Models
         public string? Descricao { get; set; }
 
         [Column("valor")]
-        public double? valor { get; set; }
+        public double? Valor { get; set; }
 
         [Column("id_pessoa")]
         public int? IdPessoa { get; set; }
