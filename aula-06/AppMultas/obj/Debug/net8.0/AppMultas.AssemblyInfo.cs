@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AppInventario")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("AppMultas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b43b71ef15848b2464244fb2e56972472c51d39d")]
-[assembly: System.Reflection.AssemblyProductAttribute("AppInventario")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AppInventario")]
+[assembly: System.Reflection.AssemblyProductAttribute("AppMultas")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AppMultas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
