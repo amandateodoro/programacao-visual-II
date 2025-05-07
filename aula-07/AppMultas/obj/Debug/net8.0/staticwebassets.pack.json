@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-07\\AppMultas\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppMultas.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AppMultas.vpquiwm28u.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-07\\AppMultas\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-07\\AppMultas\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-07\\AppMultas\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-07\\AppMultas\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppMultas.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppMultas.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AppMultas.props",
+      "PackagePath": "build\\AppMultas.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AppMultas.props",
+      "PackagePath": "buildMultiTargeting\\AppMultas.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AppMultas.props",
+      "PackagePath": "buildTransitive\\AppMultas.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

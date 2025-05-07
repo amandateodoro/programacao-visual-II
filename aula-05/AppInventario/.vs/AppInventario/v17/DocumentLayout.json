@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-05\\appinventario\\components\\pages\\consulta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|solutionrelative:components\\pages\\consulta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-05\\appinventario\\components\\pages\\listar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|solutionrelative:components\\pages\\listar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-05\\appinventario\\components\\pages\\segundocadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|solutionrelative:components\\pages\\segundocadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-05\\appinventario\\components\\pages\\primeirocadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|solutionrelative:components\\pages\\primeirocadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-05\\appinventario\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-05\\appinventario\\models\\propriedade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|solutionrelative:models\\propriedade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-05\\appinventario\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|c:\\users\\2022202060042\\source\\repos\\programacao-visual-ii\\aula-05\\appinventario\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08439C86-7459-4933-A8BA-EAFF358B30E9}|AppInventario.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,60 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Listar.razor",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Pages\\Listar.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Listar.razor",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Pages\\Listar.razor",
-              "RelativeToolTip": "Components\\Pages\\Listar.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T01:24:36.266Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Consulta.razor",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Pages\\Consulta.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Consulta.razor",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Pages\\Consulta.razor",
-              "RelativeToolTip": "Components\\Pages\\Consulta.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T23:49:52.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T23:48:42.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T23:48:29.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "SegundoCadastro.razor",
               "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Pages\\SegundoCadastro.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\SegundoCadastro.razor",
@@ -103,43 +26,8 @@
               "RelativeToolTip": "Components\\Pages\\SegundoCadastro.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T23:15:13.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Propriedade.cs",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Models\\Propriedade.cs",
-              "RelativeDocumentMoniker": "Models\\Propriedade.cs",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Models\\Propriedade.cs",
-              "RelativeToolTip": "Models\\Propriedade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:13:24.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T23:48:33.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PrimeiroCadastro.razor",
-              "DocumentMoniker": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Pages\\PrimeiroCadastro.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\PrimeiroCadastro.razor",
-              "ToolTip": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\aula-05\\AppInventario\\Components\\Pages\\PrimeiroCadastro.razor",
-              "RelativeToolTip": "Components\\Pages\\PrimeiroCadastro.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T22:02:58.466Z"
+              "WhenOpened": "2025-04-22T23:15:13.006Z",
+              "EditorCaption": ""
             }
           ]
         }
