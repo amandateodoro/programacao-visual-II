@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppConcursos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppConcursos.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AppConcursos.xeksumutuw.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppConcursos\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppConcursos\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppConcursos\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppConcursos\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppConcursos.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppConcursos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AppConcursos.props",
+      "PackagePath": "build\\AppConcursos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AppConcursos.props",
+      "PackagePath": "buildMultiTargeting\\AppConcursos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AppConcursos.props",
+      "PackagePath": "buildTransitive\\AppConcursos.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

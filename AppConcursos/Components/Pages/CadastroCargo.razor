@@ -1,0 +1,110 @@
+﻿@page "/cadastrarCargo"
+@using AppConcursos.Models;
+@using AppConcursos.Controllers;
+@inject CargoController cargoController;
+@inject NavigationManager navegacao;
+
+<h3>Cadastro de Cargo</h3>
+
+<div class="container">
+    <div class="mb-3">
+        <label for="nomeCargo" class="form-label">Nome do Cargo:</label>
+        <input @bind="NomeCargo" type="text" class="form-control" placeholder="Digite o nome do cargo">
+    </div>
+
+    <div class="mb-3">
+        <label for="edital" class="form-label">Edital:</label>
+        <input @bind="Edital" type="text" class="form-control" placeholder="Digite o edital do cargo">
+    </div>
+
+    <div class="mb-3">
+        <label for="salarioBase" class="form-label">Salário Base:</label>
+        <input @bind="SalarioBase" type="number" class="form-control" placeholder="Digite o salário base do cargo" step="0.01">
+    </div>
+
+    @if (enabledButton)
+    {
+        <button type="button" class="btn btn-primary" @onclick="AdicionarCargo">ADICIONAR</button>
+        <button type="button" class="btn btn-warning" @onclick="Cancelar">CANCELAR</button>
+        <button type="button" class="btn btn-success" @onclick="Salvar">SALVAR</button>
+    }
+    else
+    {
+        <div class="alert alert-success" role="alert">
+            Salvo com Sucesso!
+        </div>
+        <button type="button" class="btn btn-primary" @onclick="NovoRegistro">NOVO REGISTRO</button>
+    }
+
+    <table class="table mt-4">
+        <thead>
+            <tr>
+                <th>Nome do Cargo</th>
+                <th>Edital</th>
+                <th>Salário Base</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cargo in listaCargos)
+            {
+                <tr>
+                    <td>@cargo.NomeCargo</td>
+                    <td>@cargo.Edital</td>
+                    <td>@cargo.SalarioBase.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private List<Cargo> listaCargos = new List<Cargo>();
+    private bool enabledButton = true;
+    public string? NomeCargo { get; set; }
+    public string? Edital { get; set; }
+    public decimal? SalarioBase { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        listaCargos = await cargoController.ListaCargos();
+    }
+
+    public void AdicionarCargo()
+    {
+        if (string.IsNullOrWhiteSpace(NomeCargo) || string.IsNullOrWhiteSpace(Edital) || SalarioBase == null || SalarioBase <= 0)
+        {
+            Console.WriteLine("Todos os campos são obrigatórios e o salário deve ser positivo.");
+            return;
+        }
+        var cargo = new Cargo
+            {
+                NomeCargo = NomeCargo,
+                Edital = Edital,
+                SalarioBase = SalarioBase.Value
+            };
+        listaCargos.Add(cargo);
+        NomeCargo = null;
+        Edital = null;
+        SalarioBase = null;
+    }
+
+    private async Task Salvar()
+    {
+        foreach (var cargo in listaCargos)
+        {
+            await cargoController.Add(cargo);
+        }
+        await cargoController.Salvar();
+        enabledButton = false;
+    }
+
+    public void Cancelar()
+    {
+        navegacao.NavigateTo("/cadastrarCargo", forceLoad: true);
+    }
+
+    public void NovoRegistro()
+    {
+        navegacao.NavigateTo("/cadastrarCargo", forceLoad: true);
+    }
+}

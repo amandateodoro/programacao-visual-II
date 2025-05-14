@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2022202060035\\Documents\\GitHub\\LPV-II\\AppMultas\\AppMultas.csproj": {}
+    "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppMultas\\AppMultas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2022202060035\\Documents\\GitHub\\LPV-II\\AppMultas\\AppMultas.csproj": {
+    "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppMultas\\AppMultas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2022202060035\\Documents\\GitHub\\LPV-II\\AppMultas\\AppMultas.csproj",
+        "projectUniqueName": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppMultas\\AppMultas.csproj",
         "projectName": "AppMultas",
-        "projectPath": "C:\\Users\\2022202060035\\Documents\\GitHub\\LPV-II\\AppMultas\\AppMultas.csproj",
-        "packagesPath": "C:\\Users\\2022202060035\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2022202060035\\Documents\\GitHub\\LPV-II\\AppMultas\\obj\\",
+        "projectPath": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppMultas\\AppMultas.csproj",
+        "packagesPath": "C:\\Users\\2022202060042\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppMultas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\2022202060035\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2022202060042\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

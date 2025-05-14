@@ -1,0 +1,110 @@
+﻿@page "/cadastroCandidato"
+@using AppConcursos.Models;
+@using AppConcursos.Controllers;
+@inject CandidatoController candidatoController;
+@inject NavigationManager navegacao;
+
+<h3>Cadastro de Candidato</h3>
+
+<div class="container">
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome:</label>
+        <input @bind="Nome" type="text" class="form-control" placeholder="Digite o nome do candidato">
+    </div>
+
+    <div class="mb-3">
+        <label for="cpf" class="form-label">CPF:</label>
+        <input @bind="Cpf" type="text" class="form-control" placeholder="###.###.###-##" maxlength="14">
+    </div>
+
+    <div class="mb-3">
+        <label for="dataNascimento" class="form-label">Data de Nascimento:</label>
+        <input @bind="DataNascimento" type="date" class="form-control">
+    </div>
+
+    @if (enabledButton)
+    {
+        <button type="button" class="btn btn-primary" @onclick="AdicionarCandidato">ADICIONAR</button>
+        <button type="button" class="btn btn-warning" @onclick="Cancelar">CANCELAR</button>
+        <button type="button" class="btn btn-success" @onclick="Salvar">SALVAR</button>
+    }
+    else
+    {
+        <div class="alert alert-success" role="alert">
+            Salvo com Sucesso!
+        </div>
+        <button type="button" class="btn btn-primary" @onclick="NovoRegistro">NOVO REGISTRO</button>
+    }
+
+    <table class="table mt-4">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Data de Nascimento</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var candidato in listaCandidatos)
+            {
+                <tr>
+                    <td>@candidato.Nome</td>
+                    <td>@candidato.Cpf</td>
+                    <td>@candidato.DataNascimento.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private List<Candidato> listaCandidatos = new List<Candidato>();
+    private bool enabledButton = true;
+    public string? Nome { get; set; }
+    public string? Cpf { get; set; }
+    public DateTime? DataNascimento { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        listaCandidatos = await candidatoController.ListaCandidatos();
+    }
+
+    public void AdicionarCandidato()
+    {
+        if (string.IsNullOrWhiteSpace(Nome) || string.IsNullOrWhiteSpace(Cpf) || DataNascimento == null)
+        {
+            Console.WriteLine("Todos os campos são obrigatórios.");
+            return;
+        }
+        var candidato = new Candidato
+            {
+                Nome = Nome,
+                Cpf = Cpf,
+                DataNascimento = DataNascimento.Value
+            };
+        listaCandidatos.Add(candidato);
+        Nome = null;
+        Cpf = null;
+        DataNascimento = null;
+    }
+
+    private async Task Salvar()
+    {
+        foreach (var candidato in listaCandidatos)
+        {
+            await candidatoController.Add(candidato);
+        }
+        await candidatoController.Salvar();
+        enabledButton = false;
+    }
+
+    public void Cancelar()
+    {
+        navegacao.NavigateTo("/cadastroCandidato", forceLoad: true);
+    }
+
+    public void NovoRegistro()
+    {
+        navegacao.NavigateTo("/cadastroCandidato", forceLoad: true);
+    }
+}

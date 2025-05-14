@@ -1,0 +1,104 @@
+﻿@page "/inscricao"
+@using AppConcursos.Models;
+@using AppConcursos.Controllers;
+@inject InscricaoController inscControl;
+@inject CargoController cargoControl;
+@inject CandidatoController candControl;
+@inject NavigationManager navegacao;
+
+<h3>Inscrição de Candidato</h3>
+
+<div class="max-w-2xl mx-auto mt-6">
+	<div class="mb-4">
+		<label class="block text-gray-700">Selecione o Candidato:</label>
+		<select @onchange="SelecionarCandidatos" class="w-full p-2 border rounded">
+			<option value="">Selecione...</option>
+			@foreach (var cand in listaCandidatos)
+			{
+				<option value="@cand.Cpf">@cand.Nome (@cand.Cpf)</option>
+			}
+		</select>
+	</div>
+
+	<div class="mb-4">
+		<label class="block text-gray-700">Selecione o Cargo:</label>
+		<select @onchange="SelecionarCargos" class="w-full p-2 border rounded">
+			<option value="">Selecione...</option>
+			@foreach (var car in listaCargos)
+			{
+				<option value="@car.Id">@car.NomeCargo</option>
+			}
+		</select>
+	</div>
+
+	<div class="flex justify-between">
+		<button @onclick="Salvar" class="bg-blue-600 text-dark p-2 rounded" disabled="@(!enabledButton)">Salvar Inscrição</button>
+		<button @onclick="Cancelar" class="bg-gray-500 text-dark p-2 rounded">Cancelar</button>
+	</div>
+
+	@if (!enabledButton)
+	{
+		<div class="mt-4 bg-green-100 text-green-800 p-4 rounded">
+			Inscrição número @numeroInsc salva com sucesso!
+		</div>
+	}
+</div>
+
+@code {
+	private List<Cargo> listaCargos = new List<Cargo>();
+	private List<Candidato> listaCandidatos = new List<Candidato>();
+
+	private Cargo cargo = new Cargo();
+	private Candidato candidato = new Candidato();
+
+	private bool enabledButton = true;
+	private int numeroInsc = 0;
+
+	protected override async Task OnInitializedAsync()
+	{
+		var listaCarg = await cargoControl.ListaCargos();
+		var listaCand = await candControl.ListaCandidatos();
+		var listaInsc = await inscControl.ListaInscricoes();
+
+		listaCargos = listaCarg;
+		listaCandidatos = listaCand;
+		numeroInsc = 10000 + listaInsc.Count + 1;
+	}
+
+	private async Task Salvar()
+	{
+		Inscricao inscricao = new Inscricao();
+		inscricao.DataInscricao = DateTime.Today;
+		inscricao.NumeroInscricao = numeroInsc;
+		inscricao.Cargo = cargo;
+		inscricao.Candidato = candidato;
+
+		await inscControl.Add(inscricao);
+		await inscControl.Salvar();
+		enabledButton = false;
+	}
+
+	private void Cancelar()
+	{
+		navegacao.NavigateTo("/inscricao", forceLoad: true);
+	}
+
+	public void SelecionarCandidatos(ChangeEventArgs e)
+	{
+		string cpf = e.Value.ToString();
+		//seleciona uma pessoa esecífica para registrar os bens
+		candidato = listaCandidatos.Where(p => p.Cpf == cpf).FirstOrDefault();
+	}
+
+	public void SelecionarCargos(ChangeEventArgs e)
+	{
+		int id = Convert.ToInt32(e.Value.ToString());
+		//seleciona uma pessoa esecífica para registrar os bens
+		cargo = listaCargos.Where(p => p.Id == id).FirstOrDefault();
+	}
+
+	public void NovaInscricao()
+	{
+		navegacao.NavigateTo("/inscricao", forceLoad: true);
+	}
+}
