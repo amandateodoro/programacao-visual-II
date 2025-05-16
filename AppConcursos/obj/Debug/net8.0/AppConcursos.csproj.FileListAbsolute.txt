@@ -45,3 +45,46 @@ C:\Users\2022202060042\source\repos\programacao-visual-II\AppConcursos\obj\Debug
 C:\Users\2022202060042\source\repos\programacao-visual-II\AppConcursos\obj\Debug\net8.0\AppConcursos.pdb
 C:\Users\2022202060042\source\repos\programacao-visual-II\AppConcursos\obj\Debug\net8.0\AppConcursos.genruntimeconfig.cache
 C:\Users\2022202060042\source\repos\programacao-visual-II\AppConcursos\obj\Debug\net8.0\ref\AppConcursos.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\appsettings.json
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\AppConcursos.staticwebassets.runtime.json
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\AppConcursos.exe
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\AppConcursos.deps.json
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\AppConcursos.runtimeconfig.json
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\AppConcursos.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\AppConcursos.pdb
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\AppConcursos.csproj.AssemblyReference.cache
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\AppConcursos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\AppConcursos.AssemblyInfoInputs.cache
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\AppConcursos.AssemblyInfo.cs
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\AppConcursos.csproj.CoreCompileInputs.cache
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\AppConcursos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\AppConcursos.sourcelink.json
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\staticwebassets\msbuild.AppConcursos.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\staticwebassets\msbuild.build.AppConcursos.props
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AppConcursos.props
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AppConcursos.props
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\scopedcss\bundle\AppConcursos.styles.css
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\scopedcss\projectbundle\AppConcursos.bundle.scp.css
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\AppConcu.17DC1BCC.Up2Date
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\AppConcursos.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\refint\AppConcursos.dll
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\AppConcursos.pdb
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\AppConcursos.genruntimeconfig.cache
+C:\Users\aaman\Documents\ADS\6° período\Programação Visual II\AppConcursos\obj\Debug\net8.0\ref\AppConcursos.dll

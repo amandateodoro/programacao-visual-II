@@ -1,28 +1,24 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppConcursos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppConcursos.bundle.scp.css",
-      "PackagePath": "staticwebassets\\AppConcursos.xeksumutuw.bundle.scp.css"
+      "Id": "C:\\Users\\aaman\\Documents\\ADS\\6° período\\Programação Visual II\\AppConcursos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppConcursos.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AppConcursos.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppConcursos\\wwwroot\\app.css",
+      "Id": "C:\\Users\\aaman\\Documents\\ADS\\6° período\\Programação Visual II\\AppConcursos\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppConcursos\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\aaman\\Documents\\ADS\\6° período\\Programação Visual II\\AppConcursos\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppConcursos\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\aaman\\Documents\\ADS\\6° período\\Programação Visual II\\AppConcursos\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\2022202060042\\source\\repos\\programacao-visual-II\\AppConcursos\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\aaman\\Documents\\ADS\\6° período\\Programação Visual II\\AppConcursos\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppConcursos.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppConcursos.Microsoft.AspNetCore.StaticWebAssets.props",

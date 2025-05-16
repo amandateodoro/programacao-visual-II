@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppConcursos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+150ebadce4fc92f69477bfedcab4cdfc9ffb8c2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+491f11990a380025da348ff93aa1feaa5243f563")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppConcursos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppConcursos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
