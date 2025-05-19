@@ -29,5 +29,22 @@ namespace AppConcursos.Controllers
         {
             await _context.SaveChangesAsync();
         }
-    }
+
+		public async Task AtualizarNotas(Inscricao inscricao)
+		{
+			var existente = await _context.Inscricoes
+				.Include(i => i.Candidato)
+				.Include(i => i.Cargo)
+				.FirstOrDefaultAsync(i => i.Id == inscricao.Id);
+
+			if (existente != null)
+			{
+				existente.NotaConhecimentosEspecificos = inscricao.NotaConhecimentosEspecificos;
+				existente.NotaConhecimentosGerais = inscricao.NotaConhecimentosGerais;
+
+				_context.Inscricoes.Update(existente);
+			}
+		}
+
+	}
 }

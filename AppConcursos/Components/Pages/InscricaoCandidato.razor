@@ -86,14 +86,12 @@
 	public void SelecionarCandidatos(ChangeEventArgs e)
 	{
 		string cpf = e.Value.ToString();
-		//seleciona uma pessoa esecífica para registrar os bens
 		candidato = listaCandidatos.Where(p => p.Cpf == cpf).FirstOrDefault();
 	}
 
 	public void SelecionarCargos(ChangeEventArgs e)
 	{
 		int id = Convert.ToInt32(e.Value.ToString());
-		//seleciona uma pessoa esecífica para registrar os bens
 		cargo = listaCargos.Where(p => p.Id == id).FirstOrDefault();
 	}
 

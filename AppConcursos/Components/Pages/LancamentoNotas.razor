@@ -1,5 +1,49 @@
-﻿<h3>LancamentoNotas</h3>
+﻿@page "/lancarNotas"
+@using AppConcursos.Models;
+@using AppConcursos.Controllers;
+@inject InscricaoController inscControl;
+@inject NavigationManager navegacao;
+
+<h3 class="text-xl font-semibold mb-4">Lançamento de Notas</h3>
+
+<div class="max-w-4xl mx-auto">
+	@foreach (var insc in inscricoes)
+	{
+		<div class="border p-4 rounded mb-4 bg-gray-50">
+			<h4 class="font-bold">@insc.Candidato.Nome (@insc.Cargo.NomeCargo)</h4>
+			<div class="grid grid-cols-2 gap-4 mt-2">
+				<div>
+					<label>Conhecimentos Específicos:</label>
+					<input type="number" step="0.1" class="w-full border rounded p-2"
+						   @bind="insc.NotaConhecimentosEspecificos" />
+				</div>
+				<div>
+					<label>Conhecimentos Gerais:</label>
+					<input type="number" step="0.1" class="w-full border rounded p-2"
+						   @bind="insc.NotaConhecimentosGerais" />
+				</div>
+			</div>
+		</div>
+	}
+
+	<button class="bg-blue-600 text-white p-2 rounded" @onclick="SalvarNotas">Salvar Notas</button>
+</div>
 
 @code {
+	private List<Inscricao> inscricoes = new();
 
+	protected override async Task OnInitializedAsync()
+	{
+		inscricoes = await inscControl.ListaInscricoes();
+	}
+
+	private async Task SalvarNotas()
+	{
+		foreach (var insc in inscricoes)
+		{
+			await inscControl.AtualizarNotas(insc);
+		}
+		await inscControl.Salvar();
+		navegacao.NavigateTo("/lancarNotas", forceLoad: true);
+	}
 }

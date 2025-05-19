@@ -1,4 +1,14 @@
-﻿<h3>CandidatoInscrito</h3>
+﻿@page "/candidatoInscrito"
+@using AppConcursos.Models;
+@using AppConcursos.Controllers;
+@inject CargoController cargoController;
+@inject CandidatoController candidatoController;
+@inject InscricaoController inscricaoController;
+@inject NavigationManager navegacao;
+
+<h3>Candidato Inscrito</h3>
+
+
 
 @code {
 
