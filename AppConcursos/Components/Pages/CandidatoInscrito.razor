@@ -1,15 +1,158 @@
-﻿@page "/candidatoInscrito"
-@using AppConcursos.Models;
-@using AppConcursos.Controllers;
-@inject CargoController cargoController;
-@inject CandidatoController candidatoController;
-@inject InscricaoController inscricaoController;
-@inject NavigationManager navegacao;
+﻿@page "/cadastroinscricao"
+@using AppConcursos.Models
+@using AppConcursos.Controllers
+@inject CandidatoController candidatoControl
+@inject CargoController cargoControl
+@inject InscricaoController inscricaoControl
+@inject NavigationManager navegacao
+@rendermode InteractiveServer
 
-<h3>Candidato Inscrito</h3>
+<h1>Cadastro de Candidato com Inscrição</h1>
 
+<div class="container">
 
+    @if (sucesso)
+    {
+        <div class="alert alert-success">Candidato e Inscrição cadastrados com sucesso!</div>
+    }
+
+    @if (erro)
+    {
+        <div class="alert alert-danger">Preencha todos os campos obrigatórios!</div>
+    }
+
+    <div class="mb-3">
+        <label class="form-label">Nome Completo *</label>
+        <input class="form-control" @bind="candidato.Nome" placeholder="Digite o nome completo" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">CPF *</label>
+        <input class="form-control" @bind="candidato.Cpf" placeholder="000.000.000-00" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Data de Nascimento *</label>
+        <input class="form-control" @bind="candidato.DataNascimento" type="date" />
+    </div>
+
+    <nav class="navbar navbar-light" style="background-color: black"></nav>
+
+    <div class="mb-3">
+        <label class="form-label mt-3">CARGOS DISPONÍVEIS:</label>
+        <select class="form-select" @onchange="SelecionarCargos">
+            <option selected>Selecione um cargo</option>
+            @foreach (var item in lista_cargos)
+            {
+                <option value="@item.Id">@item.NomeCargo</option>
+            }
+        </select>
+    </div>
+
+    <nav class="navbar navbar-light mt-3" style="background-color: rebeccapurple"></nav>
+
+    <div class="row">
+        <div class="col">
+            <label class="form-label">Número da Inscrição:</label>
+            <input class="form-control" value="@numeroInsc" disabled />
+        </div>
+        <div class="col">
+            <button class="btn btn-outline-warning ms-2" @onclick="GerarInscricao">GERAR INSCRIÇÃO</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label class="form-label">Data da Inscrição:</label>
+            <input type="date" class="form-control" @bind="dataInscricao" disabled />
+        </div>
+    </div>
+
+    <button class="btn btn-success mt-3" @onclick="Salvar">SALVAR INSCRIÇÃO</button>
+
+    <button class="btn btn-secondary" @onclick="LimparCampos">CANCELAR</button>
+
+</div>
 
 @code {
+    private Candidato candidato = new Candidato();
+    private List<Cargo> lista_cargos = new List<Cargo>();
+    private List<Candidato> lista_candidatos = new List<Candidato>();
+    private List<Inscricao> lista_inscricoes = new List<Inscricao>();
+    private Cargo cargo = new Cargo();
 
+    private int numeroInsc = 0;
+    private DateTime? dataInscricao;
+
+    private bool sucesso = false;
+    private bool erro = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        lista_cargos = await cargoControl.ListaCargos();
+        lista_inscricoes = await inscricaoControl.ListaInscricoes();
+    }
+
+    private async Task GerarInscricao()
+    {
+        erro = false;
+
+        if (string.IsNullOrWhiteSpace(candidato.Nome) || string.IsNullOrWhiteSpace(candidato.Cpf) || cargo == null || cargo.Id == 0)
+        {
+            erro = true;
+            return;
+        }
+
+        await candidatoControl.Add(candidato);
+        await candidatoControl.Salvar();
+
+        lista_candidatos = await candidatoControl.ListaCandidatos();
+        candidato = lista_candidatos.FirstOrDefault(p => p.Cpf == candidato.Cpf);
+
+        Random random = new Random();
+        int numeroInicial = random.Next(100, 999);
+        numeroInsc = numeroInicial + lista_inscricoes.Count + 1;
+
+        dataInscricao = DateTime.Now;
+    }
+
+    private async Task Salvar()
+    {
+        sucesso = false;
+        erro = false;
+
+        if (candidato == null || numeroInsc == 0 || cargo == null || cargo.Id == 0)
+        {
+            erro = true;
+            return;
+        }
+
+        var novaInscricao = new Inscricao
+            {
+                Cargo = cargo,
+                Candidato = candidato,
+                NumeroInscricao = numeroInsc,
+                DataInscricao = dataInscricao
+            };
+
+        await inscricaoControl.Add(novaInscricao);
+        await inscricaoControl.Salvar();
+
+        sucesso = true;
+        LimparCampos();
+    }
+
+    public void SelecionarCargos(ChangeEventArgs e)
+    {
+        int id = Convert.ToInt32(e.Value);
+        cargo = lista_cargos.FirstOrDefault(p => p.Id == id);
+    }
+
+    private void LimparCampos()
+    {
+        candidato = new Candidato();
+        cargo = new Cargo();
+        numeroInsc = 0;
+        dataInscricao = null;
+    }
 }
+

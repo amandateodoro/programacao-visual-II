@@ -7,32 +7,12 @@
       "RelativeMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|solutionrelative:components\\pages\\resultadofinal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\appconcursos\\components\\pages\\resultadopreliminar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|solutionrelative:components\\pages\\resultadopreliminar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\appconcursos\\components\\pages\\lancamentonotas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|solutionrelative:components\\pages\\lancamentonotas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\appconcursos\\components\\pages\\inscricaocandidato.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|solutionrelative:components\\pages\\inscricaocandidato.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\appconcursos\\controllers\\inscricaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|solutionrelative:controllers\\inscricaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\appconcursos\\models\\inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|solutionrelative:models\\inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\appconcursos\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\appconcursos\\components\\pages\\cadastrocandidato.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|solutionrelative:components\\pages\\cadastrocandidato.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|c:\\users\\aaman\\documents\\ads\\6\u00B0 per\u00EDodo\\programa\u00E7\u00E3o visual ii\\appconcursos\\components\\pages\\resultadopreliminar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34D11DB5-3CE9-4C91-ACE1-33F747EBCE4A}|AppConcursos.csproj|solutionrelative:components\\pages\\resultadopreliminar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResultadoPreliminar.razor",
+              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Pages\\ResultadoPreliminar.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\ResultadoPreliminar.razor",
+              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Pages\\ResultadoPreliminar.razor",
+              "RelativeToolTip": "Components\\Pages\\ResultadoPreliminar.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T15:09:53.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inscricao.cs",
+              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Models\\Inscricao.cs",
+              "RelativeDocumentMoniker": "Models\\Inscricao.cs",
+              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Models\\Inscricao.cs",
+              "RelativeToolTip": "Models\\Inscricao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:07:57.285Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -52,100 +58,9 @@
               "RelativeDocumentMoniker": "Components\\Pages\\ResultadoFinal.razor",
               "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Pages\\ResultadoFinal.razor",
               "RelativeToolTip": "Components\\Pages\\ResultadoFinal.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T20:33:57.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResultadoPreliminar.razor",
-              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Pages\\ResultadoPreliminar.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\ResultadoPreliminar.razor",
-              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Pages\\ResultadoPreliminar.razor",
-              "RelativeToolTip": "Components\\Pages\\ResultadoPreliminar.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T20:33:43.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InscricaoController.cs",
-              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Controllers\\InscricaoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InscricaoController.cs",
-              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Controllers\\InscricaoController.cs*",
-              "RelativeToolTip": "Controllers\\InscricaoController.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvy8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T20:25:38.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LancamentoNotas.razor",
-              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Pages\\LancamentoNotas.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\LancamentoNotas.razor",
-              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Pages\\LancamentoNotas.razor*",
-              "RelativeToolTip": "Components\\Pages\\LancamentoNotas.razor*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T20:19:47.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Inscricao.cs",
-              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Models\\Inscricao.cs",
-              "RelativeDocumentMoniker": "Models\\Inscricao.cs",
-              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Models\\Inscricao.cs*",
-              "RelativeToolTip": "Models\\Inscricao.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T20:09:55.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InscricaoCandidato.razor",
-              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Pages\\InscricaoCandidato.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\InscricaoCandidato.razor",
-              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Pages\\InscricaoCandidato.razor*",
-              "RelativeToolTip": "Components\\Pages\\InscricaoCandidato.razor*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAF0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T20:03:20.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CadastroCandidato.razor",
-              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Pages\\CadastroCandidato.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\CadastroCandidato.razor",
-              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Pages\\CadastroCandidato.razor",
-              "RelativeToolTip": "Components\\Pages\\CadastroCandidato.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T20:00:11.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\aaman\\Documents\\ADS\\6\u00B0 per\u00EDodo\\Programa\u00E7\u00E3o Visual II\\AppConcursos\\Components\\Layout\\NavMenu.razor*",
-              "RelativeToolTip": "Components\\Layout\\NavMenu.razor*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T19:57:42.249Z",
+              "WhenOpened": "2025-05-20T15:09:53.03Z",
               "EditorCaption": ""
             }
           ]

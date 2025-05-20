@@ -1,10 +1,10 @@
 ﻿@page "/lancarNotas"
 @using AppConcursos.Models;
 @using AppConcursos.Controllers;
-@inject InscricaoController inscControl;
+@inject InscricaoController inscricaoController;
 @inject NavigationManager navegacao;
 
-<h3 class="text-xl font-semibold mb-4">Lançamento de Notas</h3>
+<h3>Lançamento de Notas</h3>
 
 <div class="max-w-4xl mx-auto">
 	@foreach (var insc in inscricoes)
@@ -34,16 +34,16 @@
 
 	protected override async Task OnInitializedAsync()
 	{
-		inscricoes = await inscControl.ListaInscricoes();
+		inscricoes = await inscricaoController.ListaInscricoes();
 	}
 
 	private async Task SalvarNotas()
 	{
 		foreach (var insc in inscricoes)
 		{
-			await inscControl.AtualizarNotas(insc);
+			await inscricaoController.AtualizarNotas(insc);
 		}
-		await inscControl.Salvar();
+		await inscricaoController.Salvar();
 		navegacao.NavigateTo("/lancarNotas", forceLoad: true);
 	}
 }

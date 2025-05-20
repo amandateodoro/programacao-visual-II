@@ -1,5 +1,58 @@
-﻿<h3>ResultadoPreliminar</h3>
+﻿@page "/resultadoPreliminar"
+@using AppConcursos.Models;
+@using AppConcursos.Controllers;
+@inject InscricaoController inscricaoController;
+
+<h3>Resultado Preliminar</h3>
+
+@if (listaResultado.Any())
+{
+    <table class="table-auto w-full border border-gray-300">
+        <thead class="bg-gray-100">
+            <tr>
+                <th class="border px-4 py-2">Posição</th>
+                <th class="border px-4 py-2">Nome do Candidato</th>
+                <th class="border px-4 py-2">CPF</th>
+                <th class="border px-4 py-2">Cargo</th>
+                <th class="border px-4 py-2">Nota Conhecimentos Gerais</th>
+                <th class="border px-4 py-2">Nota Conhecimentos Específicos</th>
+                <th class="border px-4 py-2">Nota Final</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < listaResultado.Count; i++)
+            {
+                var insc = listaResultado[i];
+                var notaFinal = (insc.NotaConhecimentosGerais + insc.NotaConhecimentosEspecificos)/2;
+
+                <tr class="text-center">
+                    <td class="border px-4 py-2">@((i + 1))º</td>
+                    <td class="border px-4 py-2">@insc.Candidato.Nome</td>
+                    <td class="border px-4 py-2">@insc.Candidato.Cpf</td>
+                    <td class="border px-4 py-2">@insc.Cargo.NomeCargo</td>
+                    <td class="border px-4 py-2">@insc.NotaConhecimentosGerais</td>
+                    <td class="border px-4 py-2">@insc.NotaConhecimentosEspecificos</td>
+                    <td class="border px-4 py-2 font-semibold">@notaFinal</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-gray-600">Nenhuma inscrição com notas foi encontrada.</p>
+}
 
 @code {
+    private List<Inscricao> listaResultado = new();
 
+    protected override async Task OnInitializedAsync()
+    {
+        var inscricoes = await inscricaoController.ListaInscricoes();
+
+        listaResultado = inscricoes
+            .Where(i => i.NotaConhecimentosGerais > 0 || i.NotaConhecimentosEspecificos > 0)
+            .OrderByDescending(i => i.NotaConhecimentosGerais + i.NotaConhecimentosEspecificos)
+            .ToList();
+    }
 }
